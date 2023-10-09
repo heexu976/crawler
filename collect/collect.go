@@ -3,13 +3,14 @@ package collect
 import (
 	"bufio"
 	"fmt"
+	"io"
+	"net/http"
+	"time"
+
 	"golang.org/x/net/html/charset"
 	"golang.org/x/text/encoding"
 	"golang.org/x/text/encoding/unicode"
 	"golang.org/x/text/transform"
-	"io"
-	"net/http"
-	"time"
 )
 
 type Fetcher interface {
