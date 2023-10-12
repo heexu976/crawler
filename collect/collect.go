@@ -1,3 +1,9 @@
+/*
+ * @Date: 2023-10-09 23:11:03
+ * @LastEditors: HeXu
+ * @LastEditTime: 2023-10-10 21:14:53
+ * @FilePath: /crawler/collect/collect.go
+ */
 package collect
 
 import (
